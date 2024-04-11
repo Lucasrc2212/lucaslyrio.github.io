@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+header{
+    background-color: rgb(30, 86, 136);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    height: calc(100% - 180px);
+}
+main{
+    background-color: rgb(173, 142, 54);
+    width: calc(100% - 200px);
+}
+aside{
+    background-color: rgb(37, 146, 27);
+    width: 200px;
+}
+footer{
+    background-color: rgb(155, 53, 121);
+    height: 100px;
+}
