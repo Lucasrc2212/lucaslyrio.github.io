@@ -1,0 +1,58 @@
+
+.cards{
+    display: flex;
+    padding: 15px;
+}
+.cards a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    justify-content: end;
+    align-items: flex-end;
+
+}
+.cards a:hover .drop{
+    display: block;
+}
+.thumb{
+    width: 250px;
+    border-radius: 10px;
+    height: 150px;
+    background-image: url("https://i.ytimg.com/vi/F6PqxbvOCUI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJSOA0nHQB8QH3OXHOaHt4d91Xeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    label{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 8px;
+        padding: 2px;
+        border-radius: 4px;
+        font-size: 13px;
+    }
+}
+
+
+.titulo{
+    width: 250px;
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.views{
+    width: 250px;
+    font-size: 12px;
+    color: rgb(82, 82, 82);
+}
+.drop{
+    display: none;
+    position: absolute;
+    height: 30px;
+    padding: 5px;
+    font-weight: bold;
+}
